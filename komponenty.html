@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: aliceblue" href="#">Menu</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              style="color: aliceblue"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: aliceblue" a href="galerie.html"
+              >Galerie</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: aliceblue" a href="shop.html"
+              >Shop</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              style="color: aliceblue"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >O nás
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="komponenty.html">Komponenty</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="kontakty.html" class="nav-link" style="color: aliceblue"
+              >Kontakty</a
+            >
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+      <div class="text-center text-white">
+        <h1 class="display-4 fw-bolder">Seznam použitých komponent</h1>
+        <p class="lead fw-normal text-white-50 mb-0">
+          Prostě komponenty
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mt-5">
+    <table class="table table-hover table-striped text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Komponent</th>
+                <th>Kde se nachází</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a target="_blank">Accordion</a></td>
+                <td><a href="./index.html" class="link-dark">Home</a></td>
+            </tr>
+            <tr>
+                <td><a target="_blank">Navbar</a></td>
+                <td><a href="./kontakty.html" class="link-dark">Kontakty</a></td>
+            </tr>
+            <tr>
+                <td><a target="_blank">Alerts</a></td>
+                <td><a href="./index.html" class="link-dark">Home</a></td>
+            </tr>
+            <tr>
+                <td><a  target="_blank">Badges</a></td>
+                <td><a href="./index.html" class="link-dark">Home</a></td>
+            </tr>
+            <tr>
+                <td><aclass="link-dark" target="_blank">Buttons</a></td>
+                <td><a href="./index.html" class="link-dark">Home</a></td>
+            </tr>
+            <tr>
+                <td><a  target="_blank">Collapse</a></td>
+                <td><a href="./shop.html" class="link-dark">Shop</a></td>
+            </tr>
+            <tr>
+                <td><a target="_blank">Dropdown</a></td>
+                <td>Všude</td>
+            </tr>
+            <tr>
+                <td><a target="_blank">Spinners</a></td>
+                <td><a href="kontakty.html" class="link-dark" >Kontakty</a></td>
+        </tbody>
+    </table>
+</div>
+<footer class="bg-light pb-5">
+    <div class="container text-center">
+      <p class="font-italic text-muted mb-0">&copy; Copyrights FloppaJedeBomby.com All rights reserved.</p>
+    </div>
+  </footer>
+    </body>
